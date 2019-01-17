@@ -41,10 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Critter.cs" />
-    <Compile Include="DinoukBebek.cs" />
-    <Compile Include="Enum.cs" />
-    <Compile Include="HashHelper.cs" />
+    <Compile Include="Critter\Critter.cs" />
+    <Compile Include="Critter\DinoukBebek.cs" />
+    <Compile Include="Helpers\Enum.cs" />
+    <Compile Include="Helpers\HashHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

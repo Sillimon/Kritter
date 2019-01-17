@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinoParc", "DinoParc\DinoPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KritterLib", "KritterLib\KritterLib.csproj", "{2AF71AB1-D9EB-4843-AF90-90E210C92EB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{95DB4026-4913-45FB-A5B3-7013D98AC73A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2AF71AB1-D9EB-4843-AF90-90E210C92EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AF71AB1-D9EB-4843-AF90-90E210C92EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AF71AB1-D9EB-4843-AF90-90E210C92EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95DB4026-4913-45FB-A5B3-7013D98AC73A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95DB4026-4913-45FB-A5B3-7013D98AC73A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95DB4026-4913-45FB-A5B3-7013D98AC73A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95DB4026-4913-45FB-A5B3-7013D98AC73A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
