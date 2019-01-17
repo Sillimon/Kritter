@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinoParc", "DinoParc\DinoParc.csproj", "{C6A76F46-D88C-47FC-9BA6-9555BC0DC3CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KritterLib", "KritterLib\KritterLib.csproj", "{2AF71AB1-D9EB-4843-AF90-90E210C92EB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6A76F46-D88C-47FC-9BA6-9555BC0DC3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A76F46-D88C-47FC-9BA6-9555BC0DC3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A76F46-D88C-47FC-9BA6-9555BC0DC3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A76F46-D88C-47FC-9BA6-9555BC0DC3CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF71AB1-D9EB-4843-AF90-90E210C92EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF71AB1-D9EB-4843-AF90-90E210C92EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF71AB1-D9EB-4843-AF90-90E210C92EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF71AB1-D9EB-4843-AF90-90E210C92EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {377E7ADD-E72B-439F-8561-0A1A4364B83F}
+	EndGlobalSection
+EndGlobal
