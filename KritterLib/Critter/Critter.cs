@@ -19,5 +19,10 @@ namespace KritterLib
             Console.WriteLine("Name : " + this.m_name);
             Console.WriteLine("Gender : " + this.m_sex);
         }
+
+        public override string ToString()
+        {
+            return String.Format("({0}) {1} \n{2}", m_latinName, m_name, m_sex.ToString());
+        }
     }
 }
