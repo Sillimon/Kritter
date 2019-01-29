@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace DinoParc
+namespace Kritter.UI
 {
     /// <summary>
     /// Logique d'interaction pour MainWindow.xaml
@@ -22,6 +22,20 @@ namespace DinoParc
     {
         public MainWindow()
         {
+            //TODO
+            //Search for cultureInfo in BDD
+            String language = "";
+
+            KritterLib.Resources.Kritter.Culture = new System.Globalization.CultureInfo(language);
+
+            LoginForm lf = new LoginForm();
+            lf.ShowDialog();
+
+            //KritterLib.Helpers.DatabaseHelper dh = new KritterLib.Helpers.DatabaseHelper();
+            //dh.Up();
+
+            KritterLib.Helpers.DatabaseHelper.FunctionResult();
+
             InitializeComponent();
         }
     }

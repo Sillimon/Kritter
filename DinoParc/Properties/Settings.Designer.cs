@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DinoParc.Properties
+namespace Kritter.Properties
 {
 
 

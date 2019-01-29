@@ -1,0 +1,15 @@
+﻿<Window x:Class="Kritter.UI.LoginForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"  
+        xmlns:local="clr-namespace:Kritter.UI"
+        xmlns:Res="clr-namespace:KritterLib.Resources;assembly=KritterLib"
+        mc:Ignorable="d"
+        Title="{x:Static Res:Kritter.CaptionLogin}" Height="280" Width="520">
+    <Grid>
+        <Label Content="Bite" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox Text="{x:Static Res:Kritter.CaptionFirstLogin}" HorizontalAlignment="Left" Height="37" Margin="71,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="257"/>
+
+    </Grid>
+</Window>
